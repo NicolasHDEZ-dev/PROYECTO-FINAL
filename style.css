@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+    .extender{
+        justify-content: flex-end;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35rem; 
+    }
+
+    .padtextos{
+        padding: 1%;
+    }
+
+    .text{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+    .discografia{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr;
+        align-items: center;
+    }
+
+    .centrar{
+        justify-content: center;
+
+        
+    }
