@@ -37,7 +37,14 @@ body{
     }
 
     .centrar{
-        justify-content: center;
+        justify-content: center;       
+    }
 
-        
+    .card{
+        height: 80vh;
+        background-color: azure;
+    }
+
+    .card-text{
+        font-size: 2,5vh
     }
