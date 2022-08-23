@@ -4,10 +4,10 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #616161;
 }
 
-.text, .contenedor {
+.logocactus, .text, .contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,20 +30,40 @@ body {
   flex-direction: column;
 }
 
-.discografia {
+.cajaimg {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2fr 2fr 2fr;
-  align-items: center;
+  grid-template-rows: 2fr 2fr;
 }
 
-.card {
+.tarj {
   height: 80vh;
-  background-color: azure;
+  background-color: #f9f9f9;
 }
 
-.card-text {
-  font-size: 2, 5vh;
+.tarj1 {
+  height: 80vh;
+  background-color: #f0f0f0;
+}
+
+.tarj2 {
+  height: 80vh;
+  background-color: #b4b4b4;
+}
+
+.tarj3 {
+  height: 80vh;
+  background-color: #787878;
+}
+
+.tarj4 {
+  height: 80vh;
+  background-color: #616161;
+}
+
+.tarj5 {
+  height: 80vh;
+  background-color: #3c3c3c;
 }
 
 /*# sourceMappingURL=style.css.map */
