@@ -70,3 +70,68 @@ flex-direction: column;
 .tarj5{
 @include tarje (map-get($map: $palette, $key: 'gris oscuro'))  
 }
+
+.twitter{
+    width: 100rem;
+    height: 100rem;
+}
+
+.mapa{
+    @extend %flexcent;
+}
+
+.personal{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 950px){
+    .personal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    }
+}
+
+.ajuste{
+    display: flex;
+    flex-direction: row;
+}
+
+.kylie{
+    width: 25rem;
+    height: 25rem;
+    @extend %flexcent;
+}
+
+@media (max-width: 1050px){
+    .ajuste{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    }
+   
+}
+
+.twitter{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.redes{
+    @extend %flexcent;
+    flex-direction: row;
+}
+
+@media (max-width: 1050px){
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

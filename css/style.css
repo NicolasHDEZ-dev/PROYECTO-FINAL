@@ -7,7 +7,7 @@ body {
   background-color: #616161;
 }
 
-.logocactus, .text, .contenedor {
+.redes, .kylie, .mapa, .logocactus, .text, .contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,6 +64,61 @@ body {
 .tarj5 {
   height: 80vh;
   background-color: #3c3c3c;
+}
+
+.twitter {
+  width: 100rem;
+  height: 100rem;
+}
+
+.personal {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 950px) {
+  .personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.ajuste {
+  display: flex;
+  flex-direction: row;
+}
+
+.kylie {
+  width: 25rem;
+  height: 25rem;
+}
+
+@media (max-width: 1050px) {
+  .ajuste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.twitter {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.redes {
+  flex-direction: row;
+}
+
+@media (max-width: 1050px) {
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
