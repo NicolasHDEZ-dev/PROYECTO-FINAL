@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@ body {
   background-color: #616161;
 }
 
-.redes, .kylie, .mapa, .logocactus, .text, .contenedor {
+.kylie, .mapa, .logocactus, .text, .contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +20,7 @@ body {
 
 .contenedor {
   flex-direction: column;
-  width: 35rem;
+  width: 25rem;
 }
 
 .padtextos {
@@ -34,6 +35,11 @@ body {
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr;
+}
+
+.tamañozapa {
+  width: 25rem;
+  height: 15rem;
 }
 
 .tarj {
@@ -94,7 +100,69 @@ body {
   height: 25rem;
 }
 
+.redes {
+  flex-direction: row;
+}
+
+@media (max-width: 850px) {
+  .contenedor {
+    width: 13rem;
+  }
+}
+footer {
+  background-color: #292929;
+}
+
+@media (max-width: 300px) {
+  .video1 {
+    width: 15rem;
+  }
+}
+.ig {
+  width: 25rem;
+  height: 40rem;
+}
+
+.twitter {
+  width: 25rem;
+  height: 20rem;
+}
+
+.mapa {
+  width: 25rem;
+  height: 15rem;
+}
+
+@media (max-width: 650px) {
+  .mapa {
+    width: 15rem;
+    height: 10rem;
+  }
+  .fotospersonales {
+    width: 15rem;
+    height: 10rem;
+  }
+  .ig {
+    width: 15rem;
+    height: 25rem;
+  }
+}
+@media (max-width: 1500px) {
+  .tamañozapa {
+    width: 16rem;
+    height: 10rem;
+  }
+}
 @media (max-width: 1050px) {
+  .tamañozapa {
+    width: 12rem;
+    height: 10rem;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .ajuste {
     display: flex;
     flex-direction: column;
@@ -102,22 +170,28 @@ body {
     align-items: center;
   }
 }
-.twitter {
-  width: 30rem;
-  height: 30rem;
-  display: flex;
-  flex-direction: row;
+.botones {
+  width: 3rem;
 }
 
-.redes {
-  flex-direction: row;
+.twitter-tweet {
+  width: 1rem;
+  height: 7rem;
 }
 
-@media (max-width: 1050px) {
-  .redes {
+@media (max-width: 395px) {
+  .cajaimg {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  .tamañozapa {
+    width: 10rem;
+    height: 10rem;
+  }
+  .botones {
+    width: 2rem;
   }
 }
 
